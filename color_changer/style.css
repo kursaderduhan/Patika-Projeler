@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#container{
+    height:1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-size: 35px;
+    background-color: bisque;
+    width: 550px;
+    height: 150px;
+    border-radius: 50px;
+}
+.btn:hover{
+    width: 600px;
+    height: 260px;
+    font-size: 45px;
+    color: #ddd;
+    background-color: brown;
+    transition: 1.5s;
+}
